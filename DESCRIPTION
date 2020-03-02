@@ -1,0 +1,20 @@
+Package: montyhall
+Title: Let's Make a Deal
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nicholas",
+           family = "Bugliari",
+           role = c("aut", "cre"),
+           email = "nbugliar@asu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The game setup replicates the game on the TV show "Let's Make a Deal" 
+where there are three doors for a contestant to choose from, one of which has a car behind it 
+and two have goats. The contestant selects a door, then the host opens a door to reveal a goat, 
+and then the contestant is given an opportunity to stay with their original selection or switch 
+to the other unopened door. There was a famous debate about whether it was optimal to stay or 
+switch when given the option to switch, so this simulation was created to test both strategies.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Depends: dplyr
