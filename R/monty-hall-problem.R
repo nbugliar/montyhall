@@ -22,8 +22,6 @@ create_game <- function()
     return( a.game )
 }
 
-
-
 #' @title
 #'  Selecting the Door
 #' @description
